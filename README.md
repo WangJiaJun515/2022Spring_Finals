@@ -18,11 +18,42 @@ https://www.kaggle.com/datasets/alpacanonymous/us-pollution-20002021
 ### Part A
   1. Air pollution varies by region
   2. Air pollution has a time difference
-### Part B
-  4. There is a relation between population and air quality.
-  5. There is a relation between state GDP and air quality.
-  6. No relation between crime case number and air quality per day.
 
 ## Hypothesis Part A
 ### 1. Air pollution varies by region
 ![1651806273(1)](https://user-images.githubusercontent.com/39075334/167060158-f1e07f30-8362-443f-9364-1ba3206d9362.png)
+
+
+
+
+## Hypothesis Part B: Comparison
+  4. There is a relation between population and air quality.
+  5. There is a relation between state GDP and air quality.
+  6. No relation between crime case number and air quality per day.
+
+This part we have 3 hypothesis total, and for each one we have another new dataset to compare its relation with the air quality.
+The frist two are to explore it from two related fields and the last one is from two unrelated fields(in common sense)
+
+Method：1. for each hypothesis, we used data normalization to make sure the data values' scale is in a same level (helping to plot in one visula).
+        min_max_scaler = lambda x: (x-np.min(x))/(np.max(x)-np.min(x))
+        standardlize_p_poll = p_poll.apply(min_max_scaler).sort_values('population',ascending=False)
+        
+        2.the method we using for first two hypothesis is plot.() to show their relation in direct ways.
+        3. for the last one we used .corr() and .osl()[Ordinary Least Squares regression]
+        
+Result Criteria:
+.corr() :  value > 0: positive correlation   value < 0： negitive correlation 
+           0 - 0.2:   weak correlation
+           0.2 - 0.6 : normal correlation
+           0.6 - 1.0: high correlation
+           
+           
+.osl():  p-value < 0.05 & r-square close to 1 means that is a good regression model.
+
+
+4. There is a relation between population and air quality.
+
+      
+
+
+
