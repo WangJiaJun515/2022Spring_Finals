@@ -174,7 +174,7 @@ Also, one thing interesting: to see the trend at 2020, both of these two states'
 
 
 6. No relation between crime case number and air quality per day. 
-  ## the Crime case number and the air quality is from two unrelated fields, so we assume there is no relation between them.
+  ### the Crime case number and the air quality is from two unrelated fields, so we assume there is no relation between them.
   
   The dataset including over one million raws which has date(precise to day), crime description, so for this part we also have two comparison.
   
