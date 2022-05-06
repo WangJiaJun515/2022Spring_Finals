@@ -128,11 +128,14 @@ We are using popluation of each state of US of 2020 for this hypothesis, so we j
 
 Result:
 ![image](https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/population(co)-pollution.jpeg)
+
 this visual shows the relation between CO and population changes in 50 states, the line of CO is fulctuated but its total trend is downward.
+
 ![image](https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/population(other3).jpeg)
+
 this shows other three relation with population and the same x-axis. there is no clear relation.
  
-Conculsion: The state with high population has relatively high carbon monoxide AQI. 
+Conculsion: The state with high population has relatively high carbon monoxide AQI. The hypothesis is right!
 
 
 
@@ -144,7 +147,78 @@ Conculsion: The state with high population has relatively high carbon monoxide A
  1. Choosing one year and comparing all state’s GDP and Air Quality Index(AQI)(By Year)
  2.  Choosing one state and comparing GDP’s growing  and AQI changes over 20 years.(By State)
 
- Result(By Year): 
+ Result(by Year): 
+ 
+ ![image](https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/GDP(by%20Year).jpeg)
+ 
+ similar to the popluation(CO) ~ air quality, with the GDP's decreasing, line of CO is fulctuated(with a larger range) but has a downward trend.
+ 
+ Conculsion: State with high GDP has a relatively high CO AQI.
+
+
+Result(by State):
+
+![image](https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/GDP(by%20state-%20CA).jpeg)
+![image](https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/GDP(by%20State%20-%20TX).jpeg)
+
+
+We've chosen California and Texas(two state with highest GDP) to show the relation with air quality. The results has some similarity: Air content of CO, SO2 and NO2 is negatively correlated with the growth of GDP, and they the difference of the O3's trend, which a positive relation with CA and opposite for TX. 
+
+Conclusion: In one state, with the GDP is growing, the air quality is being better! The hypothesis is right!
+
+Also, one thing interesting: to see the trend at 2020, both of these two states' GDP is stopping growing and have a little reduction(Because Covid-19), and correspondingly the air quality shows their corrlate change, which may support our conclusion.
+
+
+6. No relation between crime case number and air quality per day. 
+  # the Crime case number and the air quality is from two unrelated fields, so we assume there is no relation between them.
+  
+  The dataset including over one million raws which has date(precise to day), crime description, so for this part we also have two comparison.
+  
+  1. Count the number of crimes per day and analyze its relationship with daily air quality(All Case)
+  2. Set ‘crime description’ == ‘with weapon’ and analyze(Some Case)
+
+  Result(All Case):
+  
+  Correlation(~Case number): 
+  SO2 Mean: 0.19
+  O3 Mean: 0.11
+  CO Mean: -0.13
+  NO2 Mean: -0.06
+  
+  Just showing a weak corrlation(Like we guess before), but I'm inspired by the SO2 Mean:0.19 so I decide to add one more limitation to some case experiment, which set the SO2 > 0.8
+  
+  
+  
+  
+  Ordinary Least Squares regression (OLS):
+  
+  ![image](https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/Crime(ols%20-%20All%20Case).jpeg)
+  
+  The r-square is 0.03 so this is not a good model.
+  
+  
+  Result(Some Case):  # SO2 > 0.7 & ‘Crime Description’ like ‘Weapon’ 
+  
+  Correlation(~Case number): 
+  SO2 Mean: -0.13
+  O3 Mean: 0.51 vs 0.11                           4 times than before
+  CO Mean: -0.45 vs -0.13                        3 times than before
+  NO2 Mean: -0.43 vs -0.06                      7 times than before
+
+  Showing a normal corrlation with the air quality, though the result is not a good enough, it improved a lot.
+  
+  
+   Ordinary Least Squares regression (OLS):
+  
+  ![image](https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/Crime(ols%20-%20Some%20Case).png)
+  
+  The r-square is 0.03 so this is not a good model.
+  
+  
+  
+  Conslusion: the corr() function show us a good result which the crime case number per day has a normal relation with the air quality that day, especially the SO2 is over 0.7. Hypothesis is wrong !
+  
+
  
       
 
