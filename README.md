@@ -9,8 +9,8 @@ Using jupyter notebook
 2. population.ipynb                         # hypothesis 4, 5
 3. crime_pollution_corr.ipynb               # hypothesis 6
 
-
-
+Note:
+Crime_Data_2010_2017.csv(375MB) is too large to upload the repository, and is used in the third notebook (crime_pollution_corr.ipynb). Please download it from https://www.kaggle.com/datasets/cityofLA/crime-in-los-angeles  
 
 ## Dataset:
 US Pollution 2000-2021 (pollution_2000_2021.csv 93.8 MB)  
