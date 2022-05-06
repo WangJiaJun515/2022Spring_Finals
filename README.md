@@ -98,9 +98,9 @@ Conclusion: Certain pollutants in some cities showed opposite trends to the over
 ![1651810354(1)](https://user-images.githubusercontent.com/39075334/167065738-38a44fe5-f91b-4540-9776-bd88931a2adc.png)
 
 
-
-
-
+  
+  
+  
 
 ## Hypothesis Part B: Comparison
   4. There is a relation between population and air quality.
@@ -171,7 +171,7 @@ Also, one thing interesting: to see the trend at 2020, both of these two states'
 
 
 6. No relation between crime case number and air quality per day. 
-  # the Crime case number and the air quality is from two unrelated fields, so we assume there is no relation between them.
+  ## the Crime case number and the air quality is from two unrelated fields, so we assume there is no relation between them.
   
   The dataset including over one million raws which has date(precise to day), crime description, so for this part we also have two comparison.
   
