@@ -1,12 +1,15 @@
 
 # Air Quality Analysis: US Pollution 2000-2021
+Group member: Jun Liu, Jiajun Wang
 
-How to run: using jupyter notebook 
+
+## How to run: 
+Using jupyter notebook 
 1. Pollution and Air Quality Analysis.ipynb # hypothesis 1, 2, 3
 2. population.ipynb                         # hypothesis 4, 5
 3. crime_pollution_corr.ipynb               # hypothesis 6
 
-Group member: Jun Liu, Jiajun Wang
+
 
 
 ## Dataset:
