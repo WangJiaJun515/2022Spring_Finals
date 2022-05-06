@@ -97,11 +97,14 @@ Conclusion: Certain pollutants in some cities showed opposite trends to the over
 1.2.1 The year-wise box plot and monthly plot of SO2 in the US  
 ![1651810354(1)](https://user-images.githubusercontent.com/39075334/167065738-38a44fe5-f91b-4540-9776-bd88931a2adc.png)
 
-
   
   
   
-
+  
+  
+  
+  
+  
 ## Hypothesis Part B: Comparison
   4. There is a relation between population and air quality.
   5. There is a relation between state GDP and air quality.
