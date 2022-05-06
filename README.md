@@ -129,13 +129,12 @@ Result Criteria:
 4. There is a relation between population and air quality.
 We are using popluation of each state of US of 2020 for this hypothesis, so we just gropu two data by state first and then join two dataframe and get the result.
 
-Result:
-![image](https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/population(co)-pollution.jpeg)
+Result:  
+<img src="https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/population(co)-pollution.jpeg" width="60%" height="60%" />  
+this visual shows the relation between CO and population changes in 50 states, the line of CO is fulctuated but its total trend is downward.  
 
-this visual shows the relation between CO and population changes in 50 states, the line of CO is fulctuated but its total trend is downward.
 
-![image](https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/population(other3).jpeg)
-
+<img src="https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/population(other3).jpeg" width="60%" height="60%" />  
 this shows other three relation with population and the same x-axis. there is no clear relation.
  
 Conculsion: The state with high population has relatively high carbon monoxide AQI. The hypothesis is right!
@@ -150,10 +149,9 @@ Conculsion: The state with high population has relatively high carbon monoxide A
  1. Choosing one year and comparing all state’s GDP and Air Quality Index(AQI)(By Year)
  2.  Choosing one state and comparing GDP’s growing  and AQI changes over 20 years.(By State)
 
- Result(by Year): 
+ Result(by Year):  
  
- ![image](https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/GDP(by%20Year).jpeg)
- 
+ <img src="https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/GDP(by%20Year).jpeg" width="60%" height="60%" />  
  similar to the popluation(CO) ~ air quality, with the GDP's decreasing, line of CO is fulctuated(with a larger range) but has a downward trend.
  
  Conculsion: State with high GDP has a relatively high CO AQI.
@@ -161,9 +159,9 @@ Conculsion: The state with high population has relatively high carbon monoxide A
 
 Result(by State):
 
-![image](https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/GDP(by%20state-%20CA).jpeg)
-![image](https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/GDP(by%20State%20-%20TX).jpeg)
 
+ <img src="https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/GDP(by%20state-%20CA).jpeg" width="60%" height="60%" />  
+ <img src="https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/GDP(by%20State%20-%20TX).jpeg" width="60%" height="60%" />  
 
 We've chosen California and Texas(two state with highest GDP) to show the relation with air quality. The results has some similarity: Air content of CO, SO2 and NO2 is negatively correlated with the growth of GDP, and they the difference of the O3's trend, which a positive relation with CA and opposite for TX. 
 
