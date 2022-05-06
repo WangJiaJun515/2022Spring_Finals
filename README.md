@@ -1,6 +1,11 @@
 
 # Air Quality Analysis: US Pollution 2000-2021
 
+How to run: using jupyter notebook 
+1. Pollution and Air Quality Analysis.ipynb # hypothesis 1, 2, 3
+2. population.ipynb                         # hypothesis 4, 5
+3. crime_pollution_corr.ipynb               # hypothesis 6
+
 Group member: Jun Liu, Jiajun Wang
 
 
@@ -126,6 +131,21 @@ Result:
 this visual shows the relation between CO and population changes in 50 states, the line of CO is fulctuated but its total trend is downward.
 ![image](https://github.com/WangJiaJun515/2022Spring_Finals/blob/main/image/population(other3).jpeg)
 this shows other three relation with population and the same x-axis. there is no clear relation.
+ 
+Conculsion: The state with high population has relatively high carbon monoxide AQI. 
+
+
+
+
+ 5. There is a relation between state GDP and air quality.
+
+ The dataset of GDP including 1997-2020's GDP of each state, so we have two comparison of this experiment.
+ 
+ 1. Choosing one year and comparing all state’s GDP and Air Quality Index(AQI)(By Year)
+ 2.  Choosing one state and comparing GDP’s growing  and AQI changes over 20 years.(By State)
+
+ Result(By Year): 
+ 
       
 
 
