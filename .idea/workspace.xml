@@ -25,11 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26222c23-2abf-4d68-9949-874ab6fb5a92" name="Default Changelist" comment="Update function.py">
-      <change beforePath="$PROJECT_DIR$/.idea/2022Spring_Finals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2022Spring_Finals.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pollution Analysis Part A.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Pollution Analysis Part A.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1651635068962</updated>
       <workItem from="1651635075175" duration="23000" />
-      <workItem from="1652067425786" duration="4582000" />
+      <workItem from="1652067425786" duration="5750000" />
     </task>
     <task id="LOCAL-00001" summary="Update function.py">
       <created>1652067564698</created>
