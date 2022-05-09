@@ -5,7 +5,7 @@ Group member: Jun Liu, Jiajun Wang
 
 ## How to run: 
 Using jupyter notebook 
-1. Pollution and Air Quality Analysis.ipynb # hypothesis 1, 2, 3
+1. Pollution Analysis Part A.ipynb          # hypothesis 1, 2, 3
 2. population.ipynb                         # hypothesis 4, 5
 3. crime_pollution_corr.ipynb               # hypothesis 6
 
